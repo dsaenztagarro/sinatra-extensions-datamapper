@@ -1,5 +1,5 @@
 test:
-  adapter: postgresql
+  adapter: postgres
   database: pathfinder_test
   username: postgres
   host: localhost
