@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'activerecord', '~> 4.1.8'
-gem 'pg', '~> 0.17.1'
+gem 'pg'
 gem 'rake', '~>10.4.2'
 gem 'sinatra', '~> 1.4.5'
 gem 'data_mapper'

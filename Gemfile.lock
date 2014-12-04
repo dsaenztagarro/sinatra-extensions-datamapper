@@ -205,7 +205,7 @@ DEPENDENCIES
   dm-postgres-adapter
   factory_girl
   json_spec
-  pg (~> 0.17.1)
+  pg
   pry
   pry-byebug
   rabl

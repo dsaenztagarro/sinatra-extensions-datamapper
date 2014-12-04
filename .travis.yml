@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1.2
+- 2.1.0
 before_install:
 - gem update --system
 - gem --version
@@ -10,8 +10,6 @@ before_script:
 script:
 - export TRAVIS=true
 - export RACK_ENV=test
-- bundle exec rake db:migrate --trace
-- bundle exec rake db:test:prepare
 - bundle exec rake
 addons:
   postgresql: "9.3"
